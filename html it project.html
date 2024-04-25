@@ -1,9 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cars.css">
 <head>
-<title> text</title>
 </head>
 <body>
-    
+    <header>
+        <div class="navbar">
+            <div class="logo"><a class="logo1" href="hi1.html">
+                <img class="xz-logo" src="https://www.nbyiyigroup.com/wp-content/uploads/2024/01/YIYI-logo.png">
+            </a></div>
+            <ul class="links">
+                <li><a href="home">Home</a></li>
+                <li><a href="cars">Cars</a></li>
+                <li><a href="services">Services</a></li>
+                <li><a href="about">About</a></li>
+            </ul>
+            <a href="#" class=action_btn> Get started</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu open">
+            <li><a href="home">Home</a></li>
+            <li><a href="cars">Cars</a></li>
+            <li><a href="services">Services</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="#" class=action_btn> Get started</a></li>
+        </div>
+    </header>
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn');
+        const toggleBtnIcon = document.querySelector('.toggle_btn i');
+        const dropdownMenu = document.querySelector('.dropdown_menu');
+        
+        toggleBtn.onclick = function() {
+            dropdownMenu.classList.toggle('open');
+            const isOpen = dropdownMenu.classList.contains('open');
+        
+
+             toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+    </script>
 </body>
 </html>
