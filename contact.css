@@ -1,0 +1,362 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  p{ 
+    color:white;
+  
+  }
+  span{
+    color:white;
+  }
+  html{
+    background-color: black;
+  }
+  h1{
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    padding: 200px;
+    border-width: 200px;
+    background-image: url("https://www.nbyiyigroup.com/wp-content/uploads/2024/01/contact-banner-1536x432.jpg");
+  background-repeat: no-repeat;
+    border-top: 0px;
+    color: white;
+    background-position: cover;
+  
+  }
+  div.naav{
+   color: white ;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px;
+    height: 70px;
+  }
+  a.h{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top:0px;
+    padding:  15px 40px 0px 10px;
+    border-width: auto;
+    background-color: black;
+    border-style: solid;
+    border-color:black;
+    height: 35px;
+    display: inline-block;}
+     a.h:hover,a.h:active{
+       text-decoration:underline;
+       text-decoration-color:orange ;
+       text-decoration-thickness:3px ;
+     }
+  
+  a.c{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+   padding:  15px 40px 0px 10px;
+    border-width: 0px;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    height: 35px;
+     display: inline-block;
+  }
+     a.c:hover,a.c:active{
+       text-decoration:underline;
+       text-decoration-color:orange ;
+       text-decoration-thickness:3px ;
+     }
+  a.a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+  padding:  15px 40px 0px 10px;
+    border-width: 0px;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    height:35px;
+     display: inline-block;
+  }
+     a.a:hover,a.a:active{
+       text-decoration:underline;
+       text-decoration-color:orange ;
+       text-decoration-thickness:3px ;
+     }
+  a.s{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+  padding:  15px 40px 0px 10px;
+    border-width: 0px;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    height:35px;
+     display: inline-block;
+  }
+     a.s:hover,a.s:active{
+       text-decoration:underline;
+       text-decoration-color:orange ;
+       text-decoration-thickness:3px ;
+     }
+  a.ca{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+  padding:  15px 40px 0px 10px;
+    border-width: 0px;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    height:35px;
+     display: inline-block;
+  }
+   a.ca:hover,a.ca:active{
+       text-decoration:underline;
+       text-decoration-color:orange ;
+       text-decoration-thickness:3px ;
+     }
+  a.n{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+  padding:  15px 40px 0px 10px;
+    border-width: 0px;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    height:35px;
+     display: inline-block;
+  }
+   a.n:hover,a.n:active{
+       text-decoration:underline;
+       text-decoration-color:orange ;
+       text-decoration-thickness:3px ;
+     }
+  a.co{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+  padding:  15px 40px 0px 10px;
+    border-width: 0px;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    height:35px;
+     display: inline-block;
+  }
+   a.co:hover,a.co:active{
+       text-decoration:underline;
+       text-decoration-color:orange ;
+       text-decoration-thickness:3px ;
+     }
+  a.home{
+    color: white;
+    text-decoration-line: none;}
+    a.home:hover,a.home:active{
+      color: orange;
+      text-decoration-line: none;
+    
+    }
+  p.emoji{
+    display: inline;
+  }
+  div.HHome{
+    margin-left: 50px;
+  }
+  span.contact us{
+    display: inline;
+  }
+  div.contact{
+    font-size: 30px;
+    color:white;
+   margin-left:50px;
+    margin-top: 100px;
+    margin-bottom: 50px ;
+  display: inline-block;
+  }
+  div.Dinfo2{
+    margin-left: 650px;
+    display: inline-block;
+    width: 300px;
+  }
+  h2.info2{
+    font-size: 45px;
+    color: white;
+  
+  }
+  div.info{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    
+  }
+  input[type=text]{
+    border-color: black;
+    border-bottom-width: 1px ;
+    border-bottom-color:white ;
+  background-color: black; 
+    color: white ;
+  }
+  label{
+    font-size: 20px;
+    color: white;
+  }
+  input[type=email]{
+    border-color: black;
+    border-bottom-width: 1px ;
+    border-bottom-color:white ;
+  background-color: black; 
+    color: white ;
+  }
+  input[type=number]{
+    border-color: black;
+    border-bottom-width: 1px ;
+    border-bottom-color:white ;
+  background-color: black; 
+    color: white ;
+  }
+  div.country{
+    margin-left: 40px;
+    margin-bottom: 50px;
+    display: inline-block;
+  }
+  div.message{
+    outline-color: white ;
+    margin-left: 50px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  textarea{
+    margin-top: 5px;
+    background-color: black;
+    resize: none;
+    color:white;
+    border-color: white;
+    max-height: 20cm;
+  }
+  label.name{
+    padding-left:80px ;
+  }
+  label.WP{
+    padding-left:50px ;
+  }
+  div.button{
+    margin-left: 300px;
+    margin-top: 90px;
+    display: inline-block;
+  }
+  button{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+    border-bottom-color:white ;
+    border-bottom-width: 1px ;
+    border-bottom-style: solid;
+    border-top-color: white;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-left-color: white;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-right-color: white;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+  }
+  div.call{
+    display:inline-block;
+    margin-left: 885px;
+  }
+  span.call2{
+    font-size: 20px;
+    display: inline;
+    padding-left: 20px;
+  }
+  p.callemj{
+    outline-color: orange;
+    outline-style: solid;
+    outline-width: 1px;
+    padding-left: 5px;
+  font-size: 25px;
+    display: inline;
+  }
+  p.no{
+    text-decoration: underline;
+    text-decoration-color: orange ;
+    font-size: 20px;
+    display: inline;
+  }
+  div.write{
+    display:inline-block;
+    margin-left: 830px;
+  }
+  span.call3{
+    font-size: 20px;
+    display: inline;
+    padding-left: 20px;
+  }
+  p.emailemj{
+    outline-color: orange;
+    outline-style: solid;
+    outline-width: 1px;
+    padding-left: 5px;
+  font-size: 24.5px;
+    display: inline;
+  }
+  p.EM{
+     text-decoration: underline;
+    text-decoration-color: orange ;
+    font-size: 20px;
+    display: inline;
+  }
+  div.location{
+    display:inline-block;
+    margin-left: 882.5px;
+  }
+  span.call4{
+    font-size: 20px;
+    display: inline;
+    padding-left: 20px;
+  }
+  p.mapemj{
+    outline-color: orange;
+    outline-style: solid;
+    outline-width: 1px;
+    padding-left: 5px;
+  font-size: 24.5px;
+    display: inline;
+  }
+  p.loc{
+     text-decoration: underline;
+    text-decoration-color: orange ;
+    font-size: 20px;
+    display: inline;
+  }
