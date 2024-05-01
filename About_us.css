@@ -1,1 +1,41 @@
-    *{background-color: black;color: white}
+    *{background-color: black;color: white;
+
+        margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    } 
+
+
+    header{
+    
+        width: 100%; 
+        position: fixed; 
+        display: flex;
+    }
+
+
+
+    .menu a{
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 400;
+        direction: ltr;
+        padding-left: 30px;
+        padding-right: 30px;
+        
+    }
+    .menu a:hover{
+        color: orange ;
+        text-decoration:underline;
+        text-decoration-color:orange ;
+        text-decoration-thickness:2px ;
+        
+    }
+    h1{
+        font-size: 40px;
+        text-align: center;
+        padding: 200px;
+        background-image: url("https://www.nbyiyigroup.com/wp-content/uploads/2024/01/about-banner.jpg");
+      }
