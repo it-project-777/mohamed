@@ -1,12 +1,14 @@
-    *{background-color: black;color: white;
 
-        margin: auto;
+*{background-color: black ;color: white;
+    margin: auto;
     padding: auto;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
-    } 
 
+
+
+}
 
     header{
     
@@ -39,3 +41,57 @@
         padding: 200px;
         background-image: url("https://www.nbyiyigroup.com/wp-content/uploads/2024/01/about-banner.jpg");
       }
+    .creators{
+       
+    
+        margin-left:45% ;
+    }
+
+    .cre{
+            display: inline;}
+
+ .shefo{
+    display: inline-block;
+     background-color: black;
+    margin-left: 20%;
+    }
+
+.ZIAD{
+    display: inline-block;
+   background-color: black;
+margin-left: 15%;
+}
+
+
+
+
+
+
+
+.hazem{
+    display: inline-block;
+    margin-left:20% ;
+}
+
+
+
+.yosery{
+    display: inline-block;
+    margin-left:15% ;
+}
+
+
+
+.kiro{
+    display: inline-block;
+   margin-left: 20%;
+}
+
+
+
+
+.john{
+    display: inline-block;
+
+    margin-left:15% ;
+}
