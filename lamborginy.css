@@ -1,0 +1,182 @@
+*{
+    background-image: url("Lamborghini\ Revuelto\ 2024_\ -\ world\ best\ car.jpeg");
+    padding:auto;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    size: auto;
+    background-repeat: no-repeat;
+    background-position:center;
+  background-attachment: fixed; 
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+ /* Style the navigation bar */
+ .navbar {
+    width: 100%;
+    background:none;
+    overflow: auto;
+    position: fixed;
+    margin-left: 800px;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+     color: rgb(226, 100, 27);
+    
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    
+    background:black ;
+    border-radius: 40px;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  } 
+  .fa{
+    
+    background:none ;
+    border-radius: 20px;
+    
+
+ 
+}
+  
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .gallery{
+    
+    margin-top: 90px;
+    
+    border-radius: 30px;
+    border: none;
+    
+     
+  }
+  .desc{
+    background: black;
+    border-radius: 30px;
+  }
+  .gal1{
+    background: black;
+    border: none;
+  }
+  
+  
+
+ .urs{
+    color: white;
+    background: black;
+
+ }
+ .l1{
+    background: gray;
+ }
+ .but1{
+    position: relative;
+    
+    text-transform: uppercase;
+    text-decoration-line: none;
+    color: rgb(226, 64, 199);
+    background: black;
+    
+    
+
+ }
+ .but1:hover{
+    letter-spacing: 0.25em;
+background: var(--clr);
+box-shadow: var(--clr)
+ }
+
+  div.gallery {
+    margin: 80px;
+    
+    float: left;
+    width: 300px;
+    
+    
+    
+    outline: none;
+    border-radius: 20px;
+
+  
+    
+    
+  
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 250px;
+  }
