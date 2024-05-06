@@ -174,7 +174,7 @@ p{
     font-size: 2rem;
 }
 
-.ride-container{
+.bars-container{
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit,minmax(250px,auto));
@@ -182,12 +182,12 @@ p{
     margin-top: 2rem;
 }
 
-.ride-container .box{
+.bars-container .box{
     text-align: center;
     padding: 20px;
 }
 
-.ride-container .box .bx{
+.bars-container .box .bx{
     font-size: 34;
     padding: 10px;
     background: orange;
@@ -195,13 +195,13 @@ p{
     color: #393939;
 }
 
-.ride-container .box h2{
+.bars-container .box h2{
     font-size: 1.3rem;
     font-weight: 500;
     margin:1.4rem 0 0.5rem;
 }
 
-.ride-container .box .bx:hover,.ride-container .box .bxs-calendar-check{
+.bars-container .box .bx:hover,.bars-container .box .bxs-calendar-check{
     background: #393939;
     color: orange;
 
