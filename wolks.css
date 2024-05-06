@@ -186,7 +186,7 @@ a.but4{
     padding: 5px 5px;
 }
 a.but4:hover{
-letter-spacing: 0.25em;
+letter-spacing: 0.26em;
 }
 a.but4::before{
     content: '';
