@@ -1,0 +1,70 @@
+
+    body {
+       background-color:black ; 
+  }
+h1{
+    text-align: center;
+    color: white;
+}
+h3{
+    color: white ;
+}
+
+
+.car-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+
+}
+
+.car-item {
+    flex-basis: calc(50% - 9px);
+    margin-bottom: 90px;
+    text-align: center;
+    
+}
+
+.car-item img {
+    width: 50%;
+}
+
+.car-item h3 {
+    margin-top: 5px;
+}
+
+button {
+    background-color: rgb(196, 62, 9);
+    color:  white;
+    border: none;
+    padding: 9px 45px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+
+nav {
+    background-color: rgb(196, 62, 9);
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    color: rgb(99, 95, 95);
+}
