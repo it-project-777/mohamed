@@ -1,0 +1,187 @@
+* {
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: 'open Sans', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+.mercedese_cars {
+    display: inline-block;
+    margin-left: 45%;
+}
+
+.video {
+    display: inline-block;
+    margin-left: 15%;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 400;
+    direction: ltr;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.menu a:hover {
+    color: orange;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 2px;
+}
+
+img {
+    max-height: 300px;
+    max-width: 350px;
+
+}
+
+.mercedese_cars {
+    font-size: large;
+
+}
+
+.c180 {
+
+    display: inline-block;
+    margin-right: 15%;
+    margin-bottom: 20px;
+    margin-left: 15%;
+
+}
+
+.c200 {
+    display: inline-block;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+
+.c300 {
+
+    display: inline-block;
+    margin-right: 15%;
+    margin-bottom: 20px;
+    margin-left: 15%;
+}
+
+.e180 {
+
+    display: inline-block;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+
+.e200 {
+
+    display: inline-block;
+    margin-right: 15%;
+    margin-bottom: 20px;
+    margin-left: 15%;
+}
+
+.eclass {
+
+    display: inline-block;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+
+.brabus {
+
+    display: inline-block;
+    margin-right: 15%;
+    margin-bottom: 20px;
+    margin-left: 15%;
+
+}
+
+
+.c180_notes {
+    font-size: large;
+    color: rgb(rgb(23, 16, 16), green, blue);
+    font-family: Sans-serif;
+}
+
+.c200_notes {
+    font-size: large;
+    color: rgb(rgb(23, 16, 16), green, blue);
+    font-family: Sans-serif;
+}
+
+.c300_notes {
+    font-size: large;
+    color: rgb(rgb(23, 16, 16), green, blue);
+    font-family: Sans-serif;
+}
+
+.e180_notes {
+    font-size: large;
+    color: rgb(rgb(23, 16, 16), green, blue);
+    font-family: Sans-serif;
+}
+
+.e200_notes {
+    font-size: large;
+    color: rgb(rgb(23, 16, 16), green, blue);
+    font-family: Sans-serif;
+}
+
+.eclass_notes {
+    font-size: large;
+    color: rgb(rgb(23, 16, 16), green, blue);
+    font-family: Sans-serif;
+}
+
+.brabus_notes {
+    font-size: large;
+    color: rgb(rgb(23, 16, 16), green, blue);
+    font-family: Sans-serif;
+}
+
+table,
+th,
+td {
+    table-layout: fixed;
+    width: 75%;
+    border-collapse: collapse;
+    border: 4px solid rgb(148, 99, 9);
+}
+
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+}
+
+
+#myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block
+}
+
+#myMenu li a:hover {
+    background-color: #eee;
+}
