@@ -1,0 +1,212 @@
+
+*{color:black; 
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+
+
+
+}
+body{  background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-3-Choose-Standard-Desktop-LHD.png);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    background-size: cover;
+
+
+
+}
+
+    header{
+    
+        width: 100%; 
+        
+        display: flex;
+       
+    
+     background-color: rgb(0, 0, 0);
+
+    box-shadow:grey ;
+    }
+
+
+
+    .menu a{
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 400;
+        direction: ltr;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: white;
+        
+    }
+    .menu a:hover{
+        color: orange ;
+        text-decoration:none;
+        text-decoration-color:orange ;
+        text-decoration-thickness:2px ;
+        
+    }
+    .model_y{
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 10%;
+        border-radius: 30px;
+        background-color: rgba(79, 79, 79, 0.493);width: 500px;height: 470px;
+    }
+    .y_p{
+display: inline-block;
+margin-left:20% ;
+margin-bottom: 15%;
+    }
+
+
+
+    .model_x{
+        display: inline-block;
+        margin-left: 15%;
+        border-radius: 30px;
+        background-color: rgba(79, 79, 79, 0.493);width: 500px;height: 470px;
+    }
+    .x_p{
+display: inline-block;
+margin-left:20% ;
+margin-bottom: 15%;
+    }
+
+
+
+    .model_s{
+        display: inline-block;
+        margin-left: 15%;
+        margin-top: 15%;
+        border-radius: 30px;
+        background-color: rgba(79, 79, 79, 0.493);width: 500px;height: 470px;
+    }
+    .s_p{
+display: inline-block;
+margin-left:20% ;
+margin-bottom: 15%;
+    }
+
+
+
+
+    .model_3{
+        display: inline-block;
+        margin-left: 15%;
+        
+        border-radius: 30px;
+        background-color: rgba(79, 79, 79, 0.493);width: 500px;height: 470px;
+    }
+    .three_p{
+display: inline-block;
+margin-left:20% ;
+margin-bottom: 15%;
+    }
+
+a.but1{
+    position: relative;
+    background-color: rgb(209, 158, 62);
+    text-transform: uppercase;
+    text-decoration-line: none;
+    padding: 5px 5px;
+}
+a.but1:hover{
+letter-spacing: 0.25em;
+background: var(--clr);
+box-shadow: var(--clr);
+
+
+}
+a.but1::before{
+content: '';
+position: absolute;
+inset: 2px;
+background: rgb(54, 54, 54);
+}
+
+
+
+
+
+
+
+a.but2{
+    position: relative;
+    background-color: rgb(209, 158, 62);
+    text-transform: uppercase;
+    text-decoration-line: none;
+    padding: 5px 5px;
+}
+a.but2:hover{
+letter-spacing: 0.25em;
+background: var(--clr);
+box-shadow: var(--clr);
+}
+a.but2::before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: rgb(54, 54, 54);
+    }
+    
+
+
+
+
+
+a.but3{
+    position: relative;
+    background-color: rgb(209, 158, 62);
+    text-transform: uppercase;
+    text-decoration-line: none;
+    padding: 5px 5px;
+}
+a.but3:hover{
+letter-spacing: 0.25em;
+background: var(--clr);
+box-shadow: var(--clr);
+
+}
+a.but3::before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: rgb(54, 54, 54);
+    }
+    
+
+a.but4{
+    position: relative;
+    background-color: rgb(209, 158, 62);
+    text-transform: uppercase;
+    text-decoration-line: none;
+    padding: 5px 5px;
+}
+a.but4:hover{
+letter-spacing: 0.25em;
+background: var(--clr);
+box-shadow: var(--clr);
+}
+a.but4::before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: rgb(54, 54, 54);
+    }
+    
+
+
+a span{
+    position: relative;
+}
+
+
+
+
+    

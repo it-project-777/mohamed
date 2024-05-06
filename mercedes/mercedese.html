@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mercedese</title>
+    <link rel="stylesheet" href="mercedese.css">
+</head>
+
+<body>
+    <script>
+        function myFunction() {
+
+            var input, filter, ul, li, a, i; {
+                input = document.getElementById("mySearch");
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("myMenu");
+                li = ul.getElementsByTagName("li");
+
+                for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                    } else {
+                        li[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
+
+
+
+
+
+
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+
+    <ul id="myMenu">
+        <li><a href="home file.html">Home</a></li>
+        <li><a href="cars-page.html">cars</a></li>
+        <li><a href="contact.html">contact</a></li>
+
+
+    </ul>
+    <div class="logo"><img src="../YIYI-logo.png"></div>
+    <div class="menu">
+        <a href="home file.html" class="hm">HOME</a>
+        <a href="cars-page.html">CARS</a>
+        <a href="About_us.html">ABOUT-US</a>
+        <a href="contact.html">CONTACT&FAQ</a>
+
+    </div>
+    <div class="mercedese_cars">MERCEDESE CARS</div>
+    <div class="contaner">
+        <div class="video">
+            <div class="videomercedese">
+                <video src="Brabus G700 _  video edit _ HD.mp4" controls>
+            </div>
+        </div>
+        <div class="c180">
+            <div class="c180image">
+                <img src="mercedesc180-removebg-preview (1).png" alt="mercedesec180">
+            </div>
+            <div class="c180_history">
+
+                <div>
+                    <h2>Mercedese C180</h2>
+                </div>
+                <div class="c180_notes">
+                    <div>2024</div>
+                    <div>Mercedese Benz C-class (W205) C 180 (156 Hp)</div>
+                    <div>rear wheel drive</div>
+                    <div><b><del>$45,999</del> $41,495</b></div>
+                </div>
+            </div>
+        </div>
+        <div class="c200">
+            <div class="c200image">
+                <img src="c200-removebg-preview.png" alt="Mercedesec200">
+            </div>
+            <div class="c200_history">
+
+                <div>
+                    <h2>Mercedese C200 AMG</h2>
+                </div>
+                <div class="c200_notes">
+                    <div>2024</div>
+                    <div> petrol engine 181 hp </div>
+                    <div>rear wheel drive</div>
+                    <div><b><del>$46,999</del> $42,495</b></div>
+                </div>
+            </div>
+        </div>
+        <div class="c300">
+            <div class="c300image">
+                <img src="c300_coupe-removebg-preview.png" alt="Mercedesec300">
+            </div>
+            <div class="c300_history">
+
+                <div>
+                    <h2>Mercedese c300 Coupe</h2>
+                </div>
+                <div class="c300_notes">
+                    <div>2024</div>
+                    <div> 240 horsepower and 273 pound-feet of torque </div>
+                    <div>all-wheel drive</div>
+                    <div><b><del>$50,999</del> $46,495</b></div>
+                </div>
+            </div>
+        </div>
+        <div class="e180">
+            <div class="e180image">
+                <img src="e180-removebg-preview.png" alt="MercedeseE180">
+            </div>
+            <div class="e180_history">
+
+                <div>
+                    <h2>Mercedese E180</h2>
+                </div>
+                <div class="e180_notes">
+                    <div>2024</div>
+                    <div>2.0 L: Cylinders: Inline 4: Base engine type: Gas: Horsepower: 241 hp </div>
+                    <div>all wheel drive</div>
+                    <div><b><del>$66,999</del> $65,495</b> </div>
+                </div>
+            </div>
+        </div>
+        <div class="e200">
+            <div class="e200">
+                <img src="e200-removebg-preview.png" alt="Mercedesee200">
+            </div>
+            <div class="e200_history">
+
+                <div>
+                    <h2>Mercedese E200</h2>
+                </div>
+                <div class="e200_notes">
+                    <div>2024</div>
+                    <div> 2 litre turbocharged 4 cylinder powerplant,194.5 bhp </div>
+                    <div>all-wheel drive</div>
+                    <div><b><del>$67,999</del> $65,495</b></div>
+                </div>
+            </div>
+        </div>
+        <div class="eclass">
+            <div class="eclassimage">
+                <img src="e_class-removebg-preview.png" alt="Mercedese E Class">
+            </div>
+            <div class="eclass_history">
+
+                <div>
+                    <h2>Mercedese E Class</h2>
+                </div>
+                <div class="eclass_notes">
+                    <div>2024</div>
+                    <div>E 350 models use a turbocharged 4-cylinder(MHEV) 6-cylinder engine</div>
+                    <div>all-wheel drive</div>
+                    <div><b><del>$70,999</del> $65,495</b></div>
+                </div>
+            </div>
+        </div>
+        <div class="brabus">
+            <div class="brabusimage">
+                <img src="brabus_B63s_700-removebg-preview.png" alt="brabus700">
+            </div>
+            <div class="brabus_history">
+
+                <div>
+                    <h2>Mercedese Benze Brabus B63s 700</h2>
+                </div>
+                <div class="brabus_notes">
+                    <div>2024</div>
+                    <div>Rated power output of 700 hp (690 bhp) / 514 kW at 6,600 rpm The peak torque of 850 Nm </div>
+                    <div>4x4 brabus 700</div>
+                    <div><b><del>$75,999</del> $71,495</b></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <td>CAR NAME</td>
+                    <td>HORSE POWER</td>
+                    <td>PEICE</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>mercedese c180</td>
+                    <td>156 Hp</td>
+                    <td>$41,495</td>
+                </tr>
+                <tr>
+                    <td>Mercedese C200 AMG</td>
+                    <td>181 hp</td>
+                    <td>$42,495</td>
+                </tr>
+                <tr>
+                    <td>Mercedese c300 Coupe</td>
+                    <td>240 hp</td>
+                    <td>$46,495</td>
+                </tr>
+                <tr>
+                    <td>Mercedese E180</td>
+                    <td>241 hp</td>
+                    <td>$65,495</td>
+                </tr>
+                <tr>
+                    <td>Mercedese E200</td>
+                    <td>194.5 hp</td>
+                    <td>$65,495</td>
+                </tr>
+                <tr>
+                    <td>Mercedese E Class</td>
+                    <td>200 hp</td>
+                    <td>$65,495</td>
+                </tr>
+                <tr>
+                    <td>Mercedese Brabus 700</td>
+                    <td>690 bhp</td>
+                    <td>$71,495</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
