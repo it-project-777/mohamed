@@ -10,7 +10,7 @@ html {
 }
 
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -19,9 +19,8 @@ html {
 body {
     
     color: white ;
-    height: 70vh;
+    height: 100vh;
     background-color: black;
-    background-image: url('https://cdn.pixabay.com/photo/2019/07/24/23/09/car-4361321_640.jpg'); 
     background-size: cover;
     background-position: center; 
 }
@@ -32,7 +31,7 @@ li {
 
 a {
     text-decoration: none;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     color: white;
     font-size: 1rem; 
 }
@@ -146,19 +145,96 @@ section#par{
     color: white;
 }
 
-main {
-    align-items: center;
-    color: #fff;
+#details{
     display: flex;
-    flex-flow: column;
-    height: 100%;
-    justify-content: center;
-    padding-top: 80px;
+    margin-top: 0px;
+
 }
 
-p{
-    padding: 20px;
-    font-size: 1.2rem;
+#details .single-pro-image{
+    width: 70%;
+    height: 50%;
+    margin-right: 40px;
+    min-width: 300px;
+
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -70px;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#details .single-pro-details{
+    width: 50%;
+    padding-top: 10px;
+}
+#details .single-pro-details h4{
+    padding: 40x 0 20px 0;
+}
+
+#details .single-pro-details h2{
+    padding: 26px;
+}
+
+#details .single-pro-details select{
+    background: #393939;
+    color: #fff;
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+
+#details .single-pro-details input{
+    width: 35px;
+    height: 25px;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    background: #393939;
+    color: white;
+}
+
+
+#details .single-pro-details button{
+    width: 70px;
+    height: 25px;
+    background: orange;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#details .single-pro-details button:hover{
+    background: black;
+    color: orange;
+    scale: 1.05;
+}
+
+#details .single-pro-details button:active{
+    scale: 0.95;
+}
+
+#details .single-pro-details span{
+    line-height: 25px;
+}
+.vid{
+    margin:2rem;
+}
+.video{
+    max-width: 850px;
+    margin: auto;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
 }
 
 .heading{
@@ -172,39 +248,6 @@ p{
 
 .heading h1{
     font-size: 2rem;
-}
-
-.ride-container{
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
-    gap: 1rem;
-    margin-top: 2rem;
-}
-
-.ride-container .box{
-    text-align: center;
-    padding: 20px;
-}
-
-.ride-container .box .bx{
-    font-size: 34;
-    padding: 10px;
-    background: orange;
-    border-radius: 0.5rem;
-    color: #393939;
-}
-
-.ride-container .box h2{
-    font-size: 1.3rem;
-    font-weight: 500;
-    margin:1.4rem 0 0.5rem;
-}
-
-.ride-container .box .bx:hover,.ride-container .box .bxs-calendar-check{
-    background: #393939;
-    color: orange;
-
 }
 
 section{
@@ -239,29 +282,10 @@ section{
 .services-container .box p{
     padding: 0 10px;
     border: 1px solid black;
+    width: 85px;
     border-radius: 0.5rem;
     margin: 1rem 0 1rem;
     justify-content: center;    
-}
-
-.services-container .box .alfa{
-    width: 65px;
-}
-
-.services-container .box .hyundai{
-    width: 85px;
-}
-
-.services-container .box .mercedes{
-    width: 110px;
-}
-
-.services-container .box .bmw{
-    width: 60px;
-}
-
-.services-container .box .kia{
-    width: 50px;
 }
 
 
@@ -313,6 +337,10 @@ section{
     bottom: 0;
 }
 
+section{
+    padding: 80px 13% 70px;
+}
+
 .footer-content h4{
     color: #fff;
     margin-bottom: 1.5rem;
@@ -323,8 +351,8 @@ section{
     margin-bottom: 5px;
 }
 
- /*resposive design  */
- @media(max-width: 820px) {
+/*resposive design  */
+@media(max-width: 820px) {
     .navbar .links,
     .navbar .action_btn {
         display: none;
