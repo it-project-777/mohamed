@@ -21,7 +21,7 @@ body {
     color: white ;
     height: 70vh;
     background-color: black;
-    background-image: url('https://cdn.pixabay.com/photo/2019/07/24/23/09/car-4361321_640.jpg'); 
+    background-image: url('https://www.hdcarwallpapers.com/thumbs/2023/hyundai_kona_ev_2023_4k-t2.jpg'); 
     background-size: cover;
     background-position: center; 
 }
@@ -174,39 +174,6 @@ p{
     font-size: 2rem;
 }
 
-.ride-container{
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
-    gap: 1rem;
-    margin-top: 2rem;
-}
-
-.ride-container .box{
-    text-align: center;
-    padding: 20px;
-}
-
-.ride-container .box .bx{
-    font-size: 34;
-    padding: 10px;
-    background: orange;
-    border-radius: 0.5rem;
-    color: #393939;
-}
-
-.ride-container .box h2{
-    font-size: 1.3rem;
-    font-weight: 500;
-    margin:1.4rem 0 0.5rem;
-}
-
-.ride-container .box .bx:hover,.ride-container .box .bxs-calendar-check{
-    background: #393939;
-    color: orange;
-
-}
-
 section{
     padding: 50px 100PX;
 }
@@ -239,29 +206,10 @@ section{
 .services-container .box p{
     padding: 0 10px;
     border: 1px solid black;
+    width: 85px;
     border-radius: 0.5rem;
     margin: 1rem 0 1rem;
     justify-content: center;    
-}
-
-.services-container .box .alfa{
-    width: 65px;
-}
-
-.services-container .box .hyundai{
-    width: 85px;
-}
-
-.services-container .box .mercedes{
-    width: 110px;
-}
-
-.services-container .box .bmw{
-    width: 60px;
-}
-
-.services-container .box .kia{
-    width: 50px;
 }
 
 
