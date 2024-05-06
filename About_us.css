@@ -10,31 +10,74 @@
 
 }
 
-    header{
+
+
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+  }
+  
+  
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+  #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block
+  }
+  
+  #myMenu li a:hover {
+    background-color: #eee;
+  }
+
+
+
+
+  header{
     
-        width: 100%; 
-        position: fixed; 
-        display: flex;
-    }
+    width: 100%; 
+    
+    display: flex;
+   
+
+ background-color: rgb(0, 0, 0);
+
+box-shadow:grey ;
+}
 
 
 
-    .menu a{
-        text-decoration: none;
-        font-size: 1.1em;
-        font-weight: 400;
-        direction: ltr;
-        padding-left: 30px;
-        padding-right: 30px;
-        
-    }
-    .menu a:hover{
-        color: orange ;
-        text-decoration:underline;
-        text-decoration-color:orange ;
-        text-decoration-thickness:2px ;
-        
-    }
+.menu a{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 400;
+    direction: ltr;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    
+}
+.menu a:hover{
+    color: orange ;
+    text-decoration:none;
+    text-decoration-color:orange ;
+    text-decoration-thickness:2px ;
+    
+}
+
+
+
+
+
+
     h1{
         font-size: 40px;
         text-align: center;
