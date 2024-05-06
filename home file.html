@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <script src="home file.js"></script>
     <header>
         <div class="logo"><a class="logo1" href="hi1.html">
             <img class="xz-logo" src="https://www.nbyiyigroup.com/wp-content/uploads/2024/01/YIYI-logo.png">
@@ -18,15 +19,57 @@
         <div class="icons">
             <a  href="home file.html" class="hm">HOME</a>
             <a href="cars-page.html">CARS</a>
-            <a href="#">SERVICES</a>
-            <a href="#">ABOUT US </a>
-            <a href="#">CONTACT&FAQ</a>
+            <a href="contact.html">SERVICEs</a>
+            <a href="About_us.html">ABOUT US </a>
+            <a href="contact.html">CONTACT&FAQ</a>
+
          
         </div>
+        <div >
+          
+          
+          <button class="button" onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+          <!-- The Modal -->
+          <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'"
+          class="close" title="Close Modal">&times;</span>
+          
+            <!-- Modal Content -->
+            <form class="modal-content animate" action="/action_page.php">
+              <div class="imgcontainer">
+                <img src="img_avatar2.png" alt="Avatar" class="avatar">
+              </div>
+          
+              <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input class="Username" type="text" placeholder="Enter Username" name="uname" required>
+          
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+          
+                <button type="submit">Login</button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+              </div>
+          
+              <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+              </div>
+              <div class="Registeration">
+                <a class="Registeration" href="login.html" > Sign Up</a>
+              </div>
+            </form>
+          </div>
         
 
 
     </header>
+    
+   
+    
 
     <div class="searchbar">
         <form action="">
@@ -34,6 +77,7 @@
             <button type="submit"><i class="fa-brands fa-searchengin"></i></button>
         </form>
     </div>
+
 <div class="text">
     <h1>Hello Welcome to </h1>
 
@@ -47,14 +91,14 @@
 
     
     <div class="gallery">
-      <a target="_blank" href="#">
+      <a target="_blank" href="bmw.html">
         <img src="24d2406b-db10-4c65-9e74-b31a8975261d.jpeg" alt="BMW" width="600" height="400">
       </a>
       <div class="desc">BMW</div>
     </div>
     
     <div class="gallery">
-      <a target="_blank" href="#">
+      <a target="_blank" href="mercedese.html">
         <img src="AutoAesthetics_ Stylish Cars and Design.jpeg" alt="Forest" width="600" height="400">
       </a>
       <div class="desc">MERCEDES</div>
@@ -75,7 +119,7 @@
 
     </div>
     <div class="gallery">
-        <a target="_blank" href="#">
+        <a target="_blank" href="lamborginy.html">
             <img src="1e933edc-2060-4154-ad2e-468b1eb2e1d9.jpeg" alt="lamborginy" width="600" height="400">
           </a>
           <div class="desc">lamborginy</div>
@@ -97,22 +141,62 @@
     </div>
 
     <div class="gallery">
-        <a target="_blank" href="#">
+        <a target="_blank" href="tesla.html">
             <img src="Tesla logo wallpaper.jpeg" alt="TESLA" width="600" height="400">
           </a>
           <div class="desc">TESLA</div>
 
     </div>
-    <div class="cntct">
-        
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!-- Add font awesome icons -->
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-github"></a>
-
+    <div class="gallery">
+      <a target="_blank" href="#">
+        <img src="24d2406b-db10-4c65-9e74-b31a8975261d.jpeg" alt="BMW" width="600" height="400">
+      </a>
+      <div class="desc">NISAN</div>
     </div>
+      <div class="gallery">
+        <a target="_blank" href="#">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6UNiLD5782hOcRkq9MFiGJDJW-qaUfIvDVg&s" alt="BMW" width="600" height="400">
+        </a>
+        <div class="desc">MG</div>
+      </div>
+        <div class="gallery">
+          <a target="_blank" href="#">
+            <img src="data:image/png;base64,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" alt="BMW" width="600" height="400">
+          </a>
+          <div class="desc">FERRARI</div>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="#">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAbFBMVEUAAACwsLC0tLS3t7dMTEygoKC5ubl7e3usrKxBQUGcnJwQEBCkpKR/f3+ZmZkyMjKSkpJgYGBtbW0fHx9ZWVlpaWk3NzeGhoZ0dHRXV1cbGxtfX18LCwuUlJQ2NjZJSUkoKCgWFhYdHR0lJSVLserGAAAEmklEQVR4nO3aibKiOhQFUEgEEZBRAS/i0Pf//7EZcpIw+PpZpVLgXtVdJQRo2RWSY2jDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+E7pJezc5v4mC7C3BX/ub7IAW2a2mDv3N1kAhPUEGZY19zdZAIT1BIT1BIT1BIT1BArLRFj/9qBned7DM7z/aFu5ibCyvd/uCvLT8Oh7UrVNTpX8yp1e59x8TuM8ivIk+8RX/7xRWGlgM9rH2bZ3cMFVkx2lYq9T763Z9bG53X3m/uajd/Ehw7BONg1i3W7njzz07vNek33o9vtie2v4TDXmM9zMuw3COthmHzN/xJGewwZtdtw2OOLIJNIP4NFMd/RG/bAy0XfqB4kNfzRatINRk2m3Y5MIy/T7YdrJbDf1Lv2wxP0yK4mTQATHu/6TcBFVVWwrOqld13G0hFSQdVr3Ge/rLXp1VikC2bdNsWhymo0zHdeO3JkIiDfzpQqLMavyZVziMisiw2o6ia+lU9t3bbzJJxF9ruiaNmIzMLSwWNT0pdCVac1yR2+kh3Wx+z3iIhJpJjaa8kLRRqN6XT/IbKj6oNGNHz5/P69zKI+N+HCWuwpt+BGfWUyNpuxpIVUN1JQz+RxSWJxqqytdc9HlQzPH1X+5ncpdeliB+OwHUa0KApGC7cnxi7WTYT0s0XahwnLkReX8OMdNvgoNLlyFlWhhqZJSoMOv6mkdaDoPXaGSF7X0qWGp5C3+yF2JGrNSbk5jByN6FJarwlKTX7TWsCghy9g9DKuUT+iIpcJSRegawjpPhCXHLEv1LMb76p81VA6Mmpy1hqXGrFDuovuqK6a7+F3IttdNX2hQze7vBk3XqbDcNYTlj+b0H73cph+G8fjMPYU1cdXxmEWz4aJXX/NRSSTHIl7Wkxj1rPGZJQU5cVXVN4UfU6tmFyuWQzjf3urtjbYA9SurebVouhP+GCkV5ZTyjdq0ioNO21Cyxw/f30t5ar5riiimbTarTxfeT6Sg/zSykWMbE8+hZ4qmSqvgS/HPUHfllzlu8mXyRxUA3zXNNIzb7c/lnBYCm2fvSr3FvdVbB6rgm59/qne2F5Hj27ILeMNIH2XVDc4XOdzbjiPXl3k7zcmy1DYdWxYZTR7aClaVJIVcUOWLfgprp8nCU47NyUSzaLxPntj0Ja23Mn3xb9GFQytm4ydRWy7fj9LigViiyMzhmaxd+1NLNIMTV/CCZ+fz/vsb7uh1VTJ4u8NVHRH23+6Y3O9eD8rSofdGYyVL8KXLOK0rcGYNStAsUO8qGItCva0wZdD1TCoWTWVY219HpsnM0liJdFPkketWebFJx63Z1m0HHyfQXjt3zmXkt+OSn6sFRK2C3zYvZus/zn7iumvl3bLLMCiSXrJb772NqcIyztf4eIx37/+GS+VoYcE/PAornDz6y5mTYYWn7LCC4uHVpntWXF6Pp6/9n1wPTYblxcfyePmiOfF/8kXN1u9Zx5OxmVhF/HaV27KK3t776XrAEA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAz/kL8KApdYWqNsIAAAAASUVORK5CYII=" alt="BMW" width="600" height="400">
+          </a>
+          <div class="desc">JEEB</div>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="#">
+            <img src="data:image/jpeg;base64,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" alt="BMW" width="600" height="400">
+          </a>
+          <div class="desc">MINI COOPER</div>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="#">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAACUCAMAAAANv/M2AAAA21BMVEUAAADx3Z7x3qH16bXv2Zien5ndxIT05KrmzIz14qbx3p3v2Jnw1pP657KlmWffx4fo2KP667PXu3lcX1yOgVsmJylUVldsbm1+f3+GjIuYmZOQkYx1dnO+uqqKg2mbk3iooISyrJLEv6e7s5KyqoaclG7MzLFyc2rTzaq5rIKqony5tIzFupCRglV+bjuIeUOUgk2kkVzDtoMLDxMYGxz/9sLEr3izm16/pmfOzMuwtbLJx7vIwJ2aloOkppTn5dRsXzLn4LxGSEaAgG7ayJcxMzFzcFyCeFpyaEQwqrmCAAACPklEQVR4nO3XW5PhUBSG4c4Okoh0TkQQWpBph5gRdBincQj6//+iWQm6+mbGZXLxPVUKxcVr19o78fICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJBtFatq12r1ej5Rbzi2lXbSc06z9dZ23U6i2/O8H420k5577w+Gvd5o5I9//ppMJsG0l0876YnZfF7vaB8fvK7r4WJJjMXwt1l1HNuhh21XzWol7cgv1Wp+tVqtYxuN53lFEcI42SgE3c5m03FpYFx3u92ta7O0Wx9mf7z9fjwev5IRH0dLUmgYhkrCZZwfDgZ+1D8c3o+Zic73tQR/owgS0wrULIpiKSbfCeXTMe3Wh2PT13VBECRBkoSYxBhXKFAyhebk3A3juOianaPEaWvSd4yac9RcknNcrEiYpDHpdZeZha7shsKtlOMYS57lkmjIcvKGJR+x+MdoXj3t1i9OO0qSi8XbMMi0xqJqcNx9Vm7ole9mZqFnzUDmcvH0JpuuRKMsqrQNOUadiqLfCTz/1sjM0WFvN4d+FEXTMDTonItUUVXpuAtpcRWF56Mp8ae+39/szLRbH861dXN7ulyuLS/RDeNlNpahpCTNg3L5em21u+3TxczMQs/n8/PRSi7Vtl2zV9tXKl4uFyFNhM7rkbe2LIu+YJrZvd07n+iqGATBJKCJiTTN9+y0k5477rzP2P7zWibXcjM7x9w/WfkG/QGIb57oDmqVrzlmZnbf/2RmtwEAAAAAAAAAAAAAAAAAAAAAAAAAAAB88xeInUIF7lWeMQAAAABJRU5ErkJggg==" alt="BMW" width="600" height="400">
+          </a>
+          <div class="desc">CHEVOREIT</div>
+        </div>
+          
+
+        <script>
+          // Get the modal
+          var modal = document.getElementById('id01');
+          
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function(event) {
+            if (event.target == modal) {
+              modal.style.display = "none";
+            }
+          }
+          </script>   
 
 
    
