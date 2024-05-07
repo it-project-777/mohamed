@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Honda Cars</title>
+<link rel="stylesheet" href="john.css">
+<style>
+   
+    #made-by-john {
+        display: none; 
+        color: white; 
+        background-color: black; 
+        padding: 20px; 
+    }
+</style>
+</head>
+<body> 
+
+<button onclick="toggle()">document</button>
+<div id="made-by-john">
+    This page is for HONDA cars 
+</div>
+
+<script>
+    function toggle() {
+        var x = document.getElementById("made-by-john");
+
+        if (x.style.display === "none") {
+            x.style.display = "block"; 
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#cars">Cars</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact & FAQ</a></li>
+        </ul>
+    </nav>
+    <h1>HONDA Cars</h1>
+    <div class="car-gallery">
+        <div class="car-item">
+            <img src="WhatsApp Image 2024-05-06 at 16.09.43_1144afde.jpg">
+            <h3>Honda Civic</h3>
+            <button> buy now for $23,950</button>
+        </div>
+        <div class="car-item">
+            <img src="WhatsApp Image 2024-05-06 at 16.10.38_d049cab5.jpg">
+            <h3>Honda CR-V</h3>
+            <button> buy now for  $30,463</button>
+        </div>
+        <div class="car-item">
+            <img src="WhatsApp Image 2024-05-06 at 16.10.45_5f8ed883.jpg">
+            <h3>Honda Amaze</h3>
+            <button> buy now for $13,900</button>
+        </div>
+        <div class="car-item">
+            <img src="WhatsApp Image 2024-05-06 at 16.10.57_9fad4c9e.jpg">
+            <h3>Honda pilot</h3>
+            <button> buy now for $41,295</button>
+        </div>
+        <div class="car-item">
+            <img src="WhatsApp Image 2024-05-06 at 16.11.04_3da0321f.jpg">
+            <h3>Honda City</h3>
+            <button> buy now for $16,990</button>
+        </div>
+        <div class="car-item">
+            <img src="WhatsApp Image 2024-05-06 at 16.11.12_e6764203.jpg">
+            <h3>Honda Accord</h3>
+            <button> buy now for $32,195</button>
+        </div>
+    </div>
+    
+</body>
+</html>
