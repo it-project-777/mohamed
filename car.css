@@ -253,33 +253,33 @@ section#par{
 section{
     padding: 50px 100PX;
 }
-.services-container{
+.cars-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,auto));
     gap: 1rem;
     margin-top: 2rem;
 }
 
-.services-container .box{
+.cars-container .box{
     padding: 10px;
     border-radius: 1rem;
     background: #393939;
     box-shadow: 1px 4px 41px rgb(255, 255, 255,0.17);
 }
 
-.services-container .box .box-img{
+.cars-container .box .box-img{
     width: 100%;
     height: 100px;
 }
 
-.services-container .box .box-img img{
+.cars-container .box .box-img img{
     width: 100%;
     height: 100%;
     border-radius: 1rem;
     object-fit: cover;
     object-position: center;
 }
-.services-container .box p{
+.cars-container .box p{
     padding: 0 10px;
     border: 1px solid black;
     width: 85px;
@@ -289,31 +289,31 @@ section{
 }
 
 
-.services-container .box a{
+.cars-container .box a{
     text-decoration: none;
     margin: 0;
     color: orange;
     font-size: 1rem; 
 }
 
-.services-container .box a:hover{
+.cars-container .box a:hover{
     color: black;
     border-bottom: 0.1rem;
     padding-bottom: 0.5rem;
 }
 
-.services-container .box h3{
+.cars-container .box h3{
     font-weight: 500;
 
 }
 
-.services-container .box h2{
+.cars-container .box h2{
     font-size: 1.1rem;
     font-weight: 600;
     color: black ;
     margin: 0 0 0.5rem;
 }
-.services-container .box .btn{
+.cars-container .box .btn{
     display: flex;
     justify-content: center;
     background: orange;
@@ -321,7 +321,7 @@ section{
     padding: 10px;
     border-radius: 0.5rem;
 }
-.services-container .box .btn:hover{
+.cars-container .box .btn:hover{
     background: black;
     color: orange;
 }
